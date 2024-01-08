@@ -105,3 +105,40 @@ body {
 .join {
     margin-left: 126px;
 }
+
+.second {
+    margin-top: 120px;
+    width: 1320px;
+    height: 600px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.place {
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.second button {
+    width: 167px;
+    height: 57px;
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    border: 0;
+    cursor: pointer;
+}
+
+.text-color {
+    color: #F00;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
