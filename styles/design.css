@@ -11,24 +11,17 @@ body {
 .container {
     width: 1300px;
     height: 600px;
-    position: relative;
     margin: 50px auto;
     padding: 16px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    background-image: url('../resources/Banner\ Image.png');
+    background-repeat: no-repeat;
 
 }
 
-.container img {
-    width: 1300px;
-    height: 600px;
-    background: rgba(0, 0, 0, 0.0);
-}
 
 .text-block {
-    position: absolute;
-    top: 10%;
-    left: 10%;
-    right: 10%;
-    bottom: 0;
+
     color: #FFF;
     text-align: center;
     font-size: 32px;
@@ -44,4 +37,38 @@ body {
     color: #FFF;
     font-size: 72px;
     font-weight: 700;
+}
+
+.discount {
+    /* padding: 40px; */
+    text-align: center;
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.detail {
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 48px;
+    margin: 0;
+}
+
+.catagories {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+    padding: 16px;
+}
+
+.new-year {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 48px;
 }
