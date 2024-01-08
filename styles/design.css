@@ -1,22 +1,19 @@
-.New-year {
-    border-radius: 16px;
-    background: rgba(0, 0, 0, 0.0);
-}
-
 body {
-    margin: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 50px;
+    margin: 0 140px;
+    font-family: 'Inter', sans-serif;
+
 }
 
 .container {
-    width: 1300px;
+    width: 1320px;
     height: 600px;
-    margin: 50px auto;
-    padding: 16px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-    background-image: url('../resources/Banner\ Image.png');
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
     background-repeat: no-repeat;
-
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+    border-radius: 16px;
 }
 
 
@@ -71,4 +68,40 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 48px;
+}
+
+.welcome {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+    width: 1320px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 16px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.welcome-content {
+    width: 60%;
+}
+
+.party {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    margin-left: 126px;
+    margin-bottom: 24px;
+}
+
+.description {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 126px;
+}
+
+.join {
+    margin-left: 126px;
 }
