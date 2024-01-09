@@ -1,6 +1,6 @@
 body {
     margin-top: 50px;
-    margin: 0 140px;
+    /* margin: 0 140px; */
     font-family: 'Inter', sans-serif;
 
 }
@@ -235,4 +235,132 @@ body {
     font-size: 20px;
     font-weight: 500;
     margin: 0 auto;
+}
+
+.only-img {
+    width: 1320px;
+    height: 229px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url('../resources/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    margin: 0px auto;
+    position: relative;
+    margin-bottom: 120px;
+}
+
+.red {
+    position: relative;
+    margin-top: 200px;
+
+}
+
+.box {
+    margin-bottom: 0px;
+}
+
+.gifts {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.portfolio {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 0px;
+}
+
+.paragraph {
+    width: 896px;
+    margin: 0px;
+}
+
+.pic-container {
+    justify-content: flex-end;
+    margin-top: 48px;
+    gap: 24px;
+    border-radius: 16px;
+    margin-bottom: 120px;
+}
+
+.lots {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.resume {
+    text-align: center;
+    margin-top: 120px;
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.letter {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 0px;
+    padding-top: 40px;
+}
+
+.res {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    width: 896px;
+    padding-top: 22px;
+}
+
+.form {
+    margin-top: 48px;
+    background: #FFF;
+    border-radius: 50px 0px 0px 50px;
+
+
+}
+
+.bttn {
+    background-color: #F00;
+    border-radius: 0px 50px 50px 0px;
+    padding: 24px 56px;
+    margin: 0;
+
+}
+
+.input {
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    padding: 25px 477px 25px 30px;
+}
+
+footer {
+    width: 100%;
+    margin-top: 120px;
+    background: #070211;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-colum {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.add {
+    width: 375px;
 }
